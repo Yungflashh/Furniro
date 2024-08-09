@@ -595,6 +595,10 @@ width: 250px;
 /* Media queries */
 
 @media (max-width:900px){
+
+    body{
+        overflow-x: hidden;
+    }
     .links,.navIcons{
         display: none;
     }
